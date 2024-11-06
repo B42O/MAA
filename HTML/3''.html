@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form</title>
+</head>
+<body>
+    <p>Dear student,<br>Please fill the following application for fresher’s job</p>
+    
+    <form action="submit_form.html" method="post" style="font-family: Arial, sans-serif;">
+        <label>Name of the applicant*:</label>
+        <input type="text" name="f" style="width:50%;" required><br><br>
+        
+        <label>Are you the resident of India*:</label>
+        <input type="radio" name="g" required> Yes
+        <input type="radio" name="g" required> No<br><br>
+        
+        <label>Application state*:</label>
+        <select name="h" required>
+            <option></option>
+            <option>Andhra Pradesh</option>
+            <option>Telangana</option>
+            <option>Tamil Nadu</option>
+            <option>Kerala</option>
+            <option>Karnataka</option>
+            <option>Maharashtra</option>
+            <option>Delhi</option>
+            <option>West Bengal</option>
+        </select><br><br>
+        
+        <label>Your degree*:</label>
+        <select name="i" required>
+            <option></option>
+            <option>B.E</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>B.Ed</option>
+            <option>B.Com</option>
+        </select><br><br>
+        
+        <label>Year of graduation*:</label>
+        <select name="j" required>
+            <option></option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+            <option>2026</option>
+            <option>2027</option>
+        </select><br><br>
+        
+        <label>Have you done Post Graduate*:</label>
+        <input type="radio" name="k" required> Yes
+        <input type="radio" name="k" required> No<br><br>
+        
+        <label>Your graduation percentage*:</label>
+        <input type="text" name="per" style="width:50%;" required><br><br>
+        
+        <label>Name of the College*:</label>
+        <input type="text" name="col" style="width:50%;" required><br><br>
+        
+        <label>Your strengths:</label>
+        <textarea name="t" rows="4" style="width:50%;"></textarea><br><br>
+        
+        <label>Key Skills:</label>
+        <input type="checkbox" name="skills" value="C"> C
+        <input type="checkbox" name="skills" value="Python"> Python
+        <input type="checkbox" name="skills" value="Java"> Java
+        <input type="checkbox" name="skills" value="SQL"> SQL
+        <input type="checkbox" name="skills" value="HTML"> HTML<br><br>
+        
+        <label>Your email id*:</label>
+        <input type="email" name="mail" style="width:50%;" required><br><br>
+        
+        <label>Your mobile number:</label>
+        <input type="text" name="phone" style="width:50%;"><br><br>
+        
+        <label>Your Date of Birth*:</label>
+        <input type="date" name="dob" required><br><br>
+        
+        <label>Would you like to reallocate to any work in India:</label>
+        <input type="radio" name="reallocate" value="Yes"> Yes
+        <input type="radio" name="reallocate" value="No"> No<br><br>
+        
+        <label>Your Linkedin url:</label>
+        <input type="url" name="linkedin" style="width:50%;"><br><br>
+        
+        <label>Any professional certifications:</label>
+        <textarea name="cert" rows="4" style="width:50%;"></textarea><br><br>
+        
+        <label>Your HackerRank Rank:</label>
+        <input type="text" name="hackerrank" style="width:50%;"><br><br>
+        
+        <label>Your Codechef Rank:</label>
+        <input type="text" name="codechef" style="width:50%;"><br><br>
+        
+        <label>Upload your resume*:</label>
+        <input type="file" name="resume" required><br><br>
+        
+        <label>Insert Your Image*:</label>
+        <input type="file" name="image" required><br><br>
+        
+        <input type="checkbox" name="declaration" required>
+        <label>I declare that all the above details which I have provided are correct.</label><br><br>
+        
+        <input type="submit" value="Submit" style="padding: 10px 20px;">
+    </form>
+</body>
+</html>
